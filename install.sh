@@ -4,6 +4,7 @@
 #wget https://raw.githubusercontent.com/sriman-biarca/travis-oracleclient/master/packages/oracle-instantclient11.2-devel_11.2.0.4.0-2_amd64.deb
 #wget https://raw.githubusercontent.com/sriman-biarca/travis-oracleclient/master/packages/oracle-instantclient11.2-sqlplus_11.2.0.4.0-2_amd64.deb
 
+sudo apt-get update
 sudo apt-get install libaio1 -y
 
 sudo dpkg --install ./packages/oracle-instantclient11.2-devel_11.2.0.4.0-2_amd64.deb
