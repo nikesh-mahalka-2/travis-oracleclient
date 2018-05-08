@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/mvn'
+  entrypoint: 'bash'
+  args: ['install.sh']
+images: ['gcr.io/$PROJECT_ID/oracle-db-image']
